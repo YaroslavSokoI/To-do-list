@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    background-color: tomato;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    filter: brightness(.9);
+    font-size: 18px;
+    color: #fff;
+}
+
+button:hover {
+    filter: brightness(1);
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    font-size: 16px;
+    color: darkslategray;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: lightgrey;
+}

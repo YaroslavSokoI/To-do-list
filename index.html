@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="https://dan-it.com.ua/wp-content/themes/danIT/img/icons/favicon-32x32.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/home.js" defer></script>
+
+</head>
+<body>
+
+<header class="header">
+    <div class="header__content-wrapper">
+    <span class="header__logo">To do list made in Sokol 🤍</span>
+    <nav>
+        <ul>
+            <!-- Думав зробить log in/sign up але не знайшов API :( ) -->
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<div class="container">
+    <form class="new-todo-form" autocomplete="off">
+        <div class="form__input-wrapper">
+            <label for="email">New To Do</label>
+            <input type="text" name="todo" id="todo" autocomplete="off">
+        </div>
+
+        <button type="submit">Add</button>
+    </form>
+
+    <div class="todo-container"></div>
+</div>
+
+</body>
+</html>
